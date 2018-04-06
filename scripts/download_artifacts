@@ -1,0 +1,2 @@
+cd /usr/share/tomcat7/webapps/
+curl -u user:kKSfI4pKlt1C -O "http://34.237.220.38/artifactory/generic-local/sample.war"
