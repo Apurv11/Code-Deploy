@@ -1,5 +1,5 @@
 #!/bin/bash
-status_code=`curl -s -o /dev/null -w "%{http_code}" localhost:8080/sample/`
+status_code=`curl -s -o /dev/null -w "%{http_code}" localhost:8080/sample/hello.jsp`
 if [[ $status_code -eq 200 ]]; then
     echo "Tomcat Application running and working properly"
 else
